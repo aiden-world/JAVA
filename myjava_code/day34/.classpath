@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="src/mysql-connector-java-5.1.36-bin.jar" sourcepath="C:/Users/think/Desktop/尚硅谷/尚硅谷_MySql_JDBC_许刚/libs/mysql_src.zip"/>
+	<classpathentry kind="lib" path="druid-1.1.10.jar" sourcepath="C:/Users/think/AppData/Local/Temp/.org.sf.feeling.decompiler1553830819488/source/druid-1.1.10-sources.jar"/>
+	<classpathentry kind="lib" path="src/commons-dbutils-1.6.jar" sourcepath="C:/Users/think/AppData/Local/Temp/.org.sf.feeling.decompiler1553830819488/source/commons-dbutils-1.6-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

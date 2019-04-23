@@ -1,0 +1,33 @@
+数据类型转换的练习：
+1、判断下面的语句是否正确，如果正确，结果是什么？  
+short s1 = 10;  
+short s2 = 20;   
+short s3 = s1 + s2;  
+System.out.println(s3); 
+错误提示损失精度
+
+2、判断下面的语句是否正确，如果正确，结果是什么？
+char c1 = '0';
+char c2 = '1';
+int he = c1 + c2;
+char c3 = (char)he;
+System.out.println(c3);
+正确，结果为ASCII码为'0'+'1'为48+49=97时的值，为字符'a'
+
+3、判断下面的语句是否正确，如果正确，结果是什么？
+int a = 1;
+int b = 2;
+System.out.println("a+b=" + a + b);
+System.out.println("a+b=" + (a + b));
+错误，输出为
+a+b=12
+a+b=3
+
+4、判断下面的语句是否正确，如果正确，结果是什么？
+double num = 200L;
+System.out.println(num);
+正确，输出200.0
+5、判断下面的语句是否正确，如果正确，结果是什么？
+char c1 = 97;
+System.out.println(c1);
+正确，输出ASCII97的值为a

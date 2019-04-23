@@ -1,0 +1,8 @@
+1、编写方法，该方法可以统计出某个字符串（该字符串中可能包含各种字符，包括标点、空格等），
+出现次数最多的英文字母（暂不考虑出现两个相同最多的字母）。不考虑大小写。
+提示：可以查API
+
+例如：String str = "1、 hello 2. world 3. java 4.String 5. haha 6、HELLO";
+
+2、已知字符串String str = "1.hello2.world3.java4.string";
+要求拆分出每一个单词，并遍历显示

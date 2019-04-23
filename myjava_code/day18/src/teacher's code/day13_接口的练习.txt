@@ -1,0 +1,13 @@
+接口的练习1：
+（1）声明一个接口MyRunnable，包含抽象方法void run()
+（2）声明它的实现类Car，实现MyRunnable接口
+（3）声明它的实现类Person，实现MyRunnable接口
+（3）声明它的实现类Dog，实现MyRunnable接口
+（4）在测试类中创建MyRunnable[]数组，元素赋值为各种实现类对象，遍历数组，调用元素的run()方法void
+
+
+接口的练习2：
+（1）声明一个员工类Employee，有属性：姓名、年龄、薪资
+（2）让Employee员工类实现java.lang.Comparable接口，重写抽象方法，按照薪资从低到高排序
+（3）在测试类中创建Employee[]数组，调用java.util.Arrays的sort方法进行排序，遍历结果
+
